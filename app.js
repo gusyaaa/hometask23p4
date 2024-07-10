@@ -5,7 +5,7 @@ function isValidNumber(phoneNumber) {
     }
 
 
-    if (phoneNumber.length === 11 && phoneNumber.startsWith('+7')) {
+    if (phoneNumber.length === 12 && phoneNumber.startsWith('+7')) {
         return true; 
     } else {
         return false; 
